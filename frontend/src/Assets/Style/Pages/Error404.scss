@@ -1,0 +1,27 @@
+.error{
+   height: 50vh;
+
+     & h1{
+      font-size: 8rem;
+      background-color: $color-yellow;
+      color: $color-primary;
+      font-weight: bolder;
+      margin: 0 auto;
+      margin-top: 150px;
+      text-align: center;
+
+        @media screen and (max-width: $tablette) {
+         font-size: 4rem;
+         }
+         @media screen and (max-width: $mobile) {
+            font-size: 3rem;
+         }
+
+   }
+
+     & p{
+        color: $color-primary;
+        font-weight: 700;
+        text-align: center;
+     }
+}

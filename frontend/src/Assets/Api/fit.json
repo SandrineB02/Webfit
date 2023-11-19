@@ -1,0 +1,50 @@
+[
+    {
+        "id": "fit-1",
+        "image": "body-pump-s.jpg",
+        "title": "LE BODYPUMP",
+        "definition": "BODYPUMP™ est pour toutes les personnes qui souhaitent s’affiner, se tonifier et se remettre en forme – rapidement. En faisant un grand nombre de répétitions avec des poids légers à moyens, BODYPUMP constitue un entraînement complet du corps. Vous brulerez jusqu’à 540 calories. Les instructeurs vous coacheront lors de l’exécution d’exercices et techniques dont l’efficacité est prouvée scientifiquement en vous encourageant, en vous motivant, tout cela sur un fond sonore génial.",
+        "format": "Disponible en format d’entrainement de 55, 45 et 30 minutes.",
+        "option": "Egalement disponible en cours virtuels."
+    },
+    {
+        "id": "fit-2",
+        "image": "body-attack-s.jpg",
+        "title": "LE BODY ATTACK",
+        "definition": "Le BODYATTACK™ est un cours de fitness énergisant avec des mouvements qui s’adressent aussi bien aux débutants qu’aux passionnés. Nous combinons des mouvements athlétiques comme la course, des flexions et des sauts avec des exercices de force comme des pompes et des squats. Sur fond d’une musique électrisante, un instructeur LES MILLS™ vous guidera tout au long du cours – repoussant vos limites, brûlant jusqu'à 730 calories, vous donnant un sentiment de satisfaction.",
+        "format": "Disponible en format d’entraînement de 55, 45 et 30 minutes.",
+        "option": "Egalement disponible en cours virtuels."
+    },
+    {
+        "id": "fit-3",
+        "image": "trx-s.jpg",
+        "title": "LE TRX",
+        "definition": "Le TRX est une discipline sportive originale, durant laquelle on effectue une série d'exercices en suspension, à l'aide de sangles. Un cours intense et très complet où l'on travaille ses muscles de façon vraiment différente !",
+        "format": "Disponible en format d’entraînement de 55, 45 et 30 minutes.",
+        "option": "En présentiel uniquement."
+    },
+    {
+        "id": "fit-4",
+        "image": "body-balance-s.jpg",
+        "title": "LE BODY BALANCE",
+        "definition": "Idéal pour tout le monde, BODYBALANCE™ est le cours inspiré du yoga qui améliore votre esprit, votre corps et votre vie. Pendant le cours de BODYBALANCE, sur une bande son inspirante, vous vous assouplirez grâce à quelques mouvements simples de yoga qui englobent des éléments de Tai Chi et Pilates. La respiration fait partie intégrante de tous les exercices, et les instructeurs proposeront toujours des options pour les débutants. Vous renforcerez votre corps en entier et quitterez le cours en vous sentant calme et centré. Heureux.",
+        "format": "Disponible en format de cours de 55, 45 ou 30 minutes.",
+        "option": "Egalement disponible en cours virtuels."
+    },
+    {
+        "id": "fit-5",
+        "image": "body-combat-s.jpg",
+        "title": "Le BODY COMBAT",
+        "definition": "Venez essayer un cours de BODYCOMBAT™ et vous mènerez votre combat vers la forme, grâce aux 740 calories* que vous brulerez. Ce cours à haute intensité inspiré des arts martiaux est sans contact et il n’y a pas de mouvements compliqués à maîtriser.",
+        "format": "Le BODY COMBAT disponible en format d’entraînement de 55, 45 et 30 minutes.",
+        "option": "Egalement disponible en cours virtuels."
+    },
+    {
+        "id": "fit-6",
+        "image": "body-jam-s.jpg",
+        "title": "LE BODYJAM",
+        "definition": "Combinaison parfaite de musique et de danse. Cours inspiré du yoga qui améliore votre esprit, votre corps et votre vie.",
+        "format": "Le BODYJAM est disponible en format d’entraînement de 55, 45 et 30 minutes. Likez la page BODYJAM de Facebook*.",
+        "option": "Egalement disponible en cours virtuels."
+    }
+]

@@ -1,0 +1,17 @@
+.bannerContact {
+    position: relative;
+    margin-top: 25px;
+
+    & img{
+        object-fit: cover; 
+        max-width: 100%;
+        min-height: 100%;
+        width: 100%;
+        height: 30rem;
+    }
+
+    & .formulaire{
+        position: absolute;
+        margin-top: -500px;
+    }
+  }

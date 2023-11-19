@@ -1,0 +1,48 @@
+.sectionProgramme {
+    margin-top: 5rem;
+
+    @media screen and (max-width: $tablette) {
+        margin-top: 3rem;
+    }
+    @media screen and (max-width: $mobile) {
+        margin-top: 2rem;
+    }
+
+    & div{
+        background-color: $color-primary;
+        color: $color-white;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr) 1fr, 2fr;
+        gap: 10px 10px;
+        padding: 20px 20px;
+        margin-top: 40px;
+        height: 100%;
+        border-radius: 25px;
+
+        & img{
+            max-width: 100%; 
+            max-height: 100%; 
+            width: 100%;
+            height: 15rem;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        & h2{
+            color: $color-yellow;
+            font-size: 5rem;
+
+            @media screen and (max-width: $tablette) {
+                font-size: 4em;
+            }
+            @media screen and (max-width: $mobile) {
+                font-size: 3em;
+            }
+        }
+
+        & p{
+            margin: 0 auto;
+        }
+}
+
+}
