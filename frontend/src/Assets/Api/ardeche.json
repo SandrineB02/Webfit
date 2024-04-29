@@ -1,0 +1,34 @@
+[
+    {
+        "id": "sejour-1",
+        "image": "grand_site_combe.png",
+        "title": "Le grand site Combe",
+        "description": "Le Syndicat de Gestion des Gorges de l’Ardèche a mis en place un observatoire photographique de la Combe d’Arc, permettant de suivre l’évolution du paysage dans le temps, au travers d’une trentaine de points de vue.",
+        "region": "Ardèche",
+        "frequentation": "10%"
+    },
+    {
+        "id": "sejour-2",
+        "image": "la_reserve_naturelle.png",
+        "title": "La réserve naturelle",
+        "description": "Réserve naturelle des Gorges de l'Ardèche. L'ensemble formé par le Pont d'Arc et les gorges de l'Ardèche constitue un des sites naturels les plus remarquables de France, alliant paysage.",
+        "region": "Ardèche",
+        "frequentation": "30%"
+    },
+    {
+        "id": "sejour-3",
+        "image": "natura_2000.png",
+        "title": "Natura 2000",
+        "description": "Le site web du Centre de ressources Natura 2000 partage les connaissances et expériences des gestionnaires des sites Natura 2000 en France. Il propose des outils, des événements ...",
+        "region": "Ardèche",
+        "frequentation": "50%"
+    },
+    {
+        "id": "sejour-4",
+        "image": "vallee_de_l_ibie1.png",
+        "title": "Vallée de l'Ibie 1",
+        "description": "La Vallée de l’Ibie. Cette vallée en pleine nature longe la mystérieuse rivière « Ibie » entre Villeneuve de Berg et Vallon Pont d’Arc. Le long de ses 30 km se dévoilent cascades et eaux turquoises.",
+        "region": "Ardèche",
+        "frequentation": "90%"
+    }
+]

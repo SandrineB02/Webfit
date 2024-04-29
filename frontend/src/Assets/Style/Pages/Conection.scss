@@ -1,0 +1,19 @@
+.conection{
+    background-color: aqua;
+
+    & h1{
+        font-size: 5em;
+        font-weight: 5rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        color: $color-yellow; 
+
+        @media screen and (max-width: $tablette) {
+            font-size: 3em;
+        }
+        @media screen and (max-width: $mobile) {
+            font-size: 2em;
+        }
+    }
+}
