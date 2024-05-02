@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Text } from 'react-native';
 
 const BannerPage = () => {
 
@@ -26,7 +27,7 @@ const BannerPage = () => {
     return (
         
         <section className='sectionHomeTop'>
-            <img src={} alt="image Banner Home" />
+      <Text>Banner page</Text>
            
         </section>
         

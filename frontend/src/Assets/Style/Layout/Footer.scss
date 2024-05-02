@@ -1,65 +1,56 @@
-footer{
-    background-color:$color-primary;
-    height: 250px;
-    margin-top: 30px;
-    margin-bottom: 0;
-
-    @media screen and (max-width: $tablette) {
-        height: 60%;
-    }
-    @media screen and (max-width: $mobile) {
-        height: 150px;
-    }
-    
-
-    & .containerFooter{
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .footer {
         display: flex;
         flex-direction: column;
-        height: 80%;
-        padding: 25px 0px;
-
-        @media screen and (max-width: $mobile) {
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
+        background-color: rgb(0, 174, 255);
+        padding: 20px;
+        text-align: center;
+      
+        .footer-icons {
+          list-style-type: none;
+          padding: 0;
+          display: flex; /* Utilisation de flexbox pour aligner horizontalement les icônes */
+          justify-content: center; /* Alignement horizontal */
         }
-        
-
-        & .logo{
-            max-width: 100%;
-            max-height: 100%;
-            width: 130px;
-            height: 130px;
-            margin-bottom:1rem;
-
-            @media screen and (max-width: $tablette) {
-                width: 120px;
-                height: 120px;
-            }
-            @media screen and (max-width: $mobile) {
-                width: 90px;
-                height: 90px;
-                margin: 0;
-            }
+      
+        .footer-icons li {
+          margin-right: 20px;
+          vertical-align: top;
         }
-
-        & img{
-            width: 150px;
-            height: 150px;
-            display:block;
-            margin: auto;
+      
+        .footer-icons li:last-child {
+          margin-right: 0;
         }
-
-        & p {
-            color:$color-white;
-            text-align: center;
-
-            @media screen and (max-width: $mobile) {
-                font-size: 15px;
-                padding-left: 10px;
-            
-            }
+      
+        .footer-icons a {
+          color: white; /* Couleur du texte blanc */
+          text-decoration: none;
+          display: block;
+          text-align: center; /* Centre le texte */
         }
-    }
+      
+        .footer-icons img {
+          width: 50px; /* Ajustez la taille des icônes selon vos besoins */
+          height: auto;
+          display: block;
+          margin: 0 auto;
+        }
+      
+        .footer-icons span {
+          display: block;
+          color: white; /* Couleur du texte blanc */
+          margin-top: 5px; /* Espacement entre l'icône et le texte */
+        }
+      
+        // Media queries pour les appareils plus grands
+        @media screen and (min-width: 768px) {
+          .footer-icons {
+            justify-content: space-around; /* Répartit les icônes de manière égale */
+          }
+        }
+      }
+    
+  }
 
-}
+
