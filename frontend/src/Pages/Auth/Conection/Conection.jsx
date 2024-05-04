@@ -8,9 +8,10 @@ const Conection = () => {
         <section className="sectionconection">
           <div className="logo">
             <img src={logo} alt="" />
+            <h1>Canoë Malin</h1>
+            <h2>Le tourisme responsable</h2>
           </div>
-          <h1>Canoë Malin</h1>
-          <h2>Le tourisme responsable</h2>
+          
           <form>
             <input className="form" type="email" placeholder="Email" />
             <input

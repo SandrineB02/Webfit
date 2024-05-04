@@ -1,19 +1,44 @@
-import Logo from "@/Assets/Images/Pages/logo-fit.png";
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { Image, Text } from "react";
+import { NavLink } from "react-router-dom";
+import profil from "../../Assets/Images/Components/BanerPage/profil.png";
 
 const Header = () => {
-
-
-    return (
-        <header>
-            <img src={Logo} alt="logo du header" className="logo"/>
-            <nav>
-                <NavLink to="/home" className="navlink" style={({ isActive }) => isActive ? { borderBottom: "1px solid #ff6060" } : { borderBottom: "unset" }}>Accueil</NavLink>
-                <NavLink to="/contact" className="navlink" style={({ isActive }) => isActive ? { borderBottom: "1px solid #ff6060" } : { borderBottom: "unset" }}>Contact</NavLink>
-            </nav>
-        </header>
-    );
+  return (
+    <header>
+      <nav>
+        <section>
+        <Text>Bonjour</Text>
+        </section>
+       <section>
+        
+       </section>
+       <section></section>
+        <Image>{profil}</Image>
+        <NavLink
+          to="/home"
+          className="navlink"
+          style={({ isActive }) =>
+            isActive
+              ? { borderBottom: "1px solid #ff6060" }
+              : { borderBottom: "unset" }
+          }
+        >
+          Accueil
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className="navlink"
+          style={({ isActive }) =>
+            isActive
+              ? { borderBottom: "1px solid #ff6060" }
+              : { borderBottom: "unset" }
+          }
+        >
+          Contact
+        </NavLink>
+      </nav>
+    </header>
+  );
 };
 
 export default Header;

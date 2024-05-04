@@ -1,17 +1,11 @@
-import React from 'react';
-
-import BannerHome from '@/Components/Banner/BannerHome';
-
+import React from "react";
 
 const Search = () => {
-
-    return (
-        <section className='search'>
-            <BannerHome />
-            <section className='sectionSearch'>
-            </section> 
-        </section>
-    );
+  return (
+    <section className="search">
+      <section className="sectionSearch"></section>
+    </section>
+  );
 };
 
 export default Search;

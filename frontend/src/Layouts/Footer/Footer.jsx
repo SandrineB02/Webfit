@@ -2,7 +2,6 @@ import React from "react";
 import home from "../../Assets/Images/Pages/accueil.png";
 import calendar from "../../Assets/Images/Pages/calendar.png";
 import localisation from "../../Assets/Images/Pages/localisation.png";
-
 import routes from "../../Pages/Public/Public.router";
 
 const Footer = () => {
